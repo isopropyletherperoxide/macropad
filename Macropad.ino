@@ -4,6 +4,7 @@ static const uint8_t input_pins[] = {D6, D7, D8, D9};
 static const uint8_t output_pins[] = {D15, D14, D13, D12};
 
 void send_output(int);
+void run(const char *program);
 
 void setup() {
   Serial.begin(9600);
